@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+    background-color: rgb(233, 123, 14);
+}
+.grilla {
+    display: grid;
+    grid-template-areas:
+        "nav"
+        "publicaciones imagenes"
+        "entrevistas video"
+        "publicidad"
+
+    grid-column:50% 50%;
+    grid-template-rows: 15% 35% 35% 15%;
+    height: 100vh;
+}
+.barraNav {
+    color: green;
+}
+.tPrincipal {
+    color: green;
+}
+.nav{
+    grid-area: nav;
+}
+.publicaciones {
+    grid-area: publicaciones;
+    grid-template-columns: publicaciones;
+    background-color: darkmagenta;
+    width: auto;
+    height: auto;
+}
+
+.imagenes {
+    grid-area: imagenes;
+    background-color: rgb(255, 240, 252);
+    width: auto;
+    height: auto;
+}
+
+.video {
+    grid-area: video;
+    background-color: blue;
+    width: auto;
+    height: auto;
+}
+
+.entrevistas {
+    grid-area: entrevistas;
+    background-color: chocolate;
+    width: auto;
+    height: auto;
+}
+
+.publicidad {
+    grid-area: publicidad;
+    background-image: url("1326370.png");
+    background-size: contain;
+    margin: 10px 0px 0px 0px;
+
+}
+
+.publicidad p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: solid;
+}

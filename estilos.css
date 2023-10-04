@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+    background-color: rgb(219, 130, 14);
+}
+
+.cuerpo {
+    text-align: center;
+    background-color: rgb(219, 130, 14);
+}
+.barraNav {
+    color: green;
+}
+
+.tPrincipal {
+    color: green;
+}
+
+#foto1 {
+    width: 100px height: 200px;
+}
+
+.portadas{
+    display: flex;
+    flex-wrap: wrap;
+    height: 2fr;
+
+}
+.bordeF {
+    border: 10px;
+}
+
+.cuerpoFormulario {
+    margin: 20px;
+    text-align: center;
+
+}
+
+.formulario {
+
+    margin: 0 auto;
+    width: 300px;
+    background-color: rgb(245, 170, 57);
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.cuerpoFormulario {
+    text-align: center;
+}
+
+.publicidad {
+    grid-area: publicidad;
+    background-image: url("1326370.png");
+    background-size: contain;
+    margin: 10px 0px 0px 0px;
+
+}
+
+.publicidad p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: solid;
+}
+
